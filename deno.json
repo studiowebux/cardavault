@@ -1,0 +1,18 @@
+{
+  "imports": {
+    "@luca/esbuild-deno-loader": "jsr:@luca/esbuild-deno-loader@^0.11.1",
+    "esbuild": "npm:esbuild@^0.25.3",
+    "@emurgo/cardano-serialization-lib-asmjs": "npm:@emurgo/cardano-serialization-lib-asmjs@14.1.1",
+    "cbor2": "npm:cbor2",
+    "buffer": "npm:buffer"
+  },
+  "lint": {
+    "exclude": ["dist"]
+  },
+  "compilerOptions": {
+    "lib": ["dom", "deno.ns"]
+  },
+  "tasks": {
+    "build": "rm -rf dist/ && deno run --env-file -A build.ts"
+  }
+}

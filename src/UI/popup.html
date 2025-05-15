@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Cardavault</title>
+    <link rel="stylesheet" href="./style/base.css" />
+</head>
+
+<body class="dark">
+    <main class="border p-4 flex flex-col gap-4 w-300">
+        <div class="flex flex-row justify-between gap-4">
+            <div class="circle">
+                <span>T</span>
+            </div>
+
+            <button class="btn btn-sm" id="initBtn">Setup</button>
+            <button class="btn btn-sm" id="newWalletBtn">New Wallet</button>
+        </div>
+
+        <div>
+            <p class="text-center text-large"><b>Balance</b></p>
+            <p class="text-center text-large"><b>&#x20B3; 30.00</b></p>
+        </div>
+
+        <div class="flex flex-row justify-center gap-4">
+            <button class="btn">Send</button>
+            <button class="btn">Receive</button>
+            <a class="btn" id="signBtn" href="#demo-modal">Sign</a>
+        </div>
+
+        <div class="divider-1"></div>
+
+        <p><b>Transactions</b></p>
+
+        <div>
+            <section class="flex flex-col gap-2">
+                <div class="flex justify-between">
+                    <p>Received</p>
+                    <p><b>+&#x20B3; 12.00</b></p>
+                </div>
+                <div>
+                    <p class="text-light truncate">
+                        acee63d22f3bc1633e97f55710b7c55383495915277333d7d4287871ad604d1d
+                    </p>
+                </div>
+                <div class="flex justify-between">
+                    <p class="text-light">
+                        <span>2025-03-03, 07:20:00 PM</span>
+                    </p>
+
+                    <button class="btn btn-sm">View</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div id="demo-modal" class="modal">
+        <div class="modal__content">
+            <h1>CSS Only Modal</h1>
+
+            <p>
+                You can use the :target pseudo-class to create a modals with
+                Zero JavaScript. Enjoy!
+            </p>
+
+            <div class="modal__footer">
+                Made with <i class="fa fa-heart"></i>, by
+                <a href="https://twitter.com/denicmarko" target="_blank">@denicmarko</a>
+            </div>
+
+            <a href="#" class="modal__close">&times;</a>
+        </div>
+    </div>
+
+    <script type="module" src="/app.js"></script>
+</body>
+
+</html>
