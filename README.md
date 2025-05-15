@@ -28,8 +28,19 @@ This is only a POC, I will probably not continue this project.
 
 **Environments**
 
-- `DOLOS_URL`
-- `X_API_KEY`
+```text
+X_API_KEY_MAINNET
+X_API_KEY_TESTNET
+X_API_KEY
+
+SKEY
+PKEY
+MAINNET_BASE_ADDRESS
+TESTNET_BASE_ADDRESS
+MAINNET_REWARD_ADDRESS
+TESTNET_REWARD_ADDRESS
+DOLOS_URL
+```
 
 ---
 
