@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./images/logo.png" alt="Project Logo" width="256">
+<img src="./images/icon.png" alt="Project Logo" width="256">
 
 <h2>Cardavault</h2>
 
